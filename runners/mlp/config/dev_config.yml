@@ -1,0 +1,22 @@
+config:
+  # model name
+  model: "mlp"
+  # mlp architecture
+  arch: [784, 128, 128, 128, 10]
+  # learning rate
+  lr: 0.001
+  # train batch size
+  train_batch_size: 64
+  # val batch size
+  val_batch_size: 64
+  # train log frequency
+  train_log_freq: 100
+  # num of epochs
+  num_epochs: 10
+  # device (cpu or cuda)
+  device: "cuda"
+  # validation freq
+  val_freq: 10
+  # restore path
+  train_restore_file: "/home/andrijazz/storage/saferegions/log/wandb/run-20210518_121841-2d3y4jh2/files/mlp-30.pth"
+

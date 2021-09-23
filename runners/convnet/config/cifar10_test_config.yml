@@ -1,0 +1,19 @@
+config:
+    # resolution
+    resolution: [32, 32]
+    # model name
+    model_name: "safe_resnet18_cifar"
+    # dataset name
+    dataset_name: "cifar10"
+    # test dataset
+    test_dataset_path: "/datadrive/datasets/cifar10"
+    # restore from wandb or local
+    train_restore_storage: "local"
+    # path to checkpoint from which to be restored
+    train_restore_file: "/home/andrijazz/storage/saferegions/models/safe_resnet18_cifar_13eqzyvl_25.pth"
+    # test batch size
+    test_batch_size: 1
+    # input gaussian noise
+    gaussian_noise: false
+    # boundary_definition
+    boundary_definition: 'gaussian'
