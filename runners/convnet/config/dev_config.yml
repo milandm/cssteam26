@@ -6,9 +6,9 @@ config:
     # dataset name
     dataset_name: "cifar10"
     # train dataset
-    train_dataset_path: "/datadrive/datasets/cifar10"
+    train_dataset_path: "/home/storage/datasets/cifar10"
     # val dataset
-    val_dataset_path: "/datadrive/datasets/cifar10"
+    val_dataset_path: "/home/storage/datasets/cifar10"
     # train batch size per gpu
     train_batch_size: 128
     # number of epochs
